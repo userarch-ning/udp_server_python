@@ -3,7 +3,7 @@
 Este é um servidor UDP simples implementado em Python que simula perda de pacotes.
 Foi desenvolvido com fins didáticos, para mostrar como o protocolo UDP se comporta quando mensagens são descartadas, já que o UDP não garante entrega, ordem ou integridade dos dados.
 
-## Como funcion
+## Como funciona
 
 O cliente envia mensagens ao servidor via UDP.
 
