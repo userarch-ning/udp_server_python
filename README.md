@@ -1,9 +1,9 @@
-**Servidor UDP com Simulação de Perda de Pacotes**
+# Servidor UDP com Simulação de Perda de Pacotes
 
 Este é um servidor UDP simples implementado em Python que simula perda de pacotes.
 Foi desenvolvido com fins didáticos, para mostrar como o protocolo UDP se comporta quando mensagens são descartadas, já que o UDP não garante entrega, ordem ou integridade dos dados.
 
-**Como funciona**
+## Como funcion
 
 O cliente envia mensagens ao servidor via UDP.
 
@@ -14,7 +14,7 @@ Para simular perda de pacotes, o servidor ignora algumas mensagens em vez de res
 Assim, você pode observar como o UDP lida com a ausência de confirmações.
 
 
-**Tecnologias**
+## Tecnologias
 
 Python 3
 
@@ -39,7 +39,7 @@ python3 cliente_udp.py
 
 
 
-**Observações importantes**
+## Observações importantes
 
 O UDP (User Datagram Protocol) é um protocolo não orientado à conexão:
 
@@ -51,7 +51,7 @@ Os pacotes podem ser perdidos, duplicados ou chegar fora de ordem.
 Este projeto ajuda a visualizar esses comportamentos na prática.
 
 
-**Exemplo de execução**
+## Exemplo de execução
 
 Cliente:
 ```
@@ -76,12 +76,12 @@ Recebido: Teste 2 de ('127.0.0.1', 48812)
 ---
 
 
-**UDP Packet Loss Simulation Server**
+# UDP Packet Loss Simulation Server
 
 This is a simple UDP server implemented in Python that simulates packet loss.
 It was developed for didactic purposes, to demonstrate how UDP behaves when messages are dropped, since UDP does not guarantee delivery, order, or integrity.
 
-**How it works**
+## How it works
 
 The client sends messages to the server over UDP.
 
@@ -92,7 +92,7 @@ To simulate packet loss, the server ignores some messages instead of replying to
 This allows you to see how UDP handles missing confirmations.
 
 
-**Technologies**
+## Technologies
 
 Python 3
 
@@ -117,7 +117,7 @@ python3 client_udp.py
 
 
 
-**Important notes**
+## Important notes
 
 UDP (User Datagram Protocol) is a connectionless protocol:
 
@@ -129,7 +129,7 @@ Packets may be lost, duplicated, or arrive out of order.
 This project helps visualize these behaviors in practice.
 
 
-**Example output**
+## Example output
 
 Client:
 ```
